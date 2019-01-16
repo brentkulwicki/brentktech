@@ -9,11 +9,12 @@
     </head>
     <body>
         <div id='landing_page'>
+          <!-- This section is just an image that takes up the left half of the screen -->
           <div id='main_image'>
             <img src='brent_pic.jpg' id='brent_pic' />
           </div>
+          <!-- The next three sections will each be its own separate pages - first page is the bio page -->
           <div id='main_content'>
-            <!-- <h1>Meet Brent Kulwicki</h1> -->
             <div id='kids_pic'><img src='brent_kids.jpg' id='kids'></div>
             <h2>Brent Kulwicki is a business professional with over 10 years of experience in sales and financial services turned web developer. Despite changing industries, his focus is the same as it always has been, taking care of his clients to help them grow their brand or business.</h2>
             <p>Primarily using HTML, CSS and JavaScript, Brent has spent the past year focusing on building high-quality websites and applications. 
@@ -23,42 +24,44 @@
               ' src='double_down_arrows.png'/></a></div>
           </div>
         </div>
-          <div id='portfolio_page'>
-            <h2 id='sample'>Sample Work</h2>
-            <div id='portfolio_tiles'>
-              <a href='eightBall.html' target='_blank'><img id='eightball_screenshot' src='8ball_screenshot.png'></a>
-              <a href='calc.html' target='_blank'><img id='calc_screenshot' src='calc_screenshot.png'></a>
-              <!-- <a href='project_three'><img src='https://placeimg.com/400/300/tech'></a>
-              <a href='project_four'><img src='https://placeimg.com/400/300/tech'></a> -->
-            </div>
-            <a href='https://github.com/brentkulwicki' target='_blank'><img id='github_icon' src='iconmonstr-github-3-240.png' /></a>
-            <a href='https://twitter.com/BrentKulwicki' target='_blank'><img id='twitter_icon' src='iconmonstr-twitter-3-240.png' /></a>
-            <a href='https://www.linkedin.com/in/brent-kulwicki-96822874/' target='_blank'><img id='linkedin_icon' src='iconmonstr-linkedin-3-240.png' /></a>
-            <a href='mailto:brentkwebdev@gmail.com'><img id='gmail_icon' src='iconmonstr-gmail-3-240.png' /></a>
+        <!-- This section will house the main projects from my portfolio - currently only has 2 projects - 2 other commented out -->
+        <div id='portfolio_page'>
+          <h2 id='sample'>Sample Work</h2>
+          <div id='portfolio_tiles'>
+            <a href='eightBall.html' target='_blank'><img id='eightball_screenshot' src='8ball_screenshot.png'></a>
+            <a href='calc.html' target='_blank'><img id='calc_screenshot' src='calc_screenshot.png'></a>
+            <!-- <a href='project_three'><img src='https://placeimg.com/400/300/tech'></a>
+            <a href='project_four'><img src='https://placeimg.com/400/300/tech'></a> -->
           </div>
-          <div id='contact_page'>
-            <h2>Contact Brent</h2>
-            <div id='form_container'>
-              <form>
-                <label for='full_name'>Full Name:</label><br>
-                <input type='text' id='full_name' name='full_name'><br>
-                <label for='email'>Email:</label><br>
-                <input type='email' id='email' name='email'><br>
-                <label>What are you contacting about? (Check all that apply)</label><br>
-                <input type='checkbox' id='employment' name='contact'>
-                <label for='employment'>Full-time Employment</label>
-                <input type='checkbox' id='freelance' name ='contact'>
-                <label for='freelance'>Freelance</label>
-                <input type='checkbox' id='collaborate' name='contact'>
-                <label for='collaborate'>Collaborate</label>
-                <input type='checkbox' id='other' name='contact'>
-                <label for='other'>Other</label><br>
-                <label for='more_detail'>Provide more detailed here:</label><br>
-                <textarea id='more_detail' name='contact' rows='5' cols='33'></textarea><br>
-                <input type='submit' value='Send to Brent'>
-              </form>
-            </div>
+          <a href='https://github.com/brentkulwicki' target='_blank'><img id='github_icon' src='iconmonstr-github-3-240.png' /></a>
+          <a href='https://twitter.com/BrentKulwicki' target='_blank'><img id='twitter_icon' src='iconmonstr-twitter-3-240.png' /></a>
+          <a href='https://www.linkedin.com/in/brent-kulwicki-96822874/' target='_blank'><img id='linkedin_icon' src='iconmonstr-linkedin-3-240.png' /></a>
+          <a href='mailto:brentkwebdev@gmail.com'><img id='gmail_icon' src='iconmonstr-gmail-3-240.png' /></a>
+        </div>
+        <!--  -->
+        <div id='contact_page'>
+          <h2>Contact Brent</h2>
+          <div id='form_container'>
+            <form>
+              <label for='full_name'>Full Name:</label><br>
+              <input type='text' id='full_name' name='full_name'><br>
+              <label for='email'>Email:</label><br>
+              <input type='email' id='email' name='email'><br>
+              <label>What are you contacting about? (Check all that apply)</label><br>
+              <input type='checkbox' id='employment' name='contact'>
+              <label for='employment'>Full-time Employment</label>
+              <input type='checkbox' id='freelance' name ='contact'>
+              <label for='freelance'>Freelance</label>
+              <input type='checkbox' id='collaborate' name='contact'>
+              <label for='collaborate'>Collaborate</label>
+              <input type='checkbox' id='other' name='contact'>
+              <label for='other'>Other</label><br>
+              <label for='more_detail'>Provide more detailed here:</label><br>
+              <textarea id='more_detail' name='contact' rows='5' cols='33'></textarea><br>
+              <input type='submit' value='Send to Brent'>
+            </form>
           </div>
-        <script src="brentktech.js"></script>
-      </body>
+        </div>
+      <script src="brentktech.js"></script>
+    </body>
   </html>
