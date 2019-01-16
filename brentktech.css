@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+#landing_page {
+  margin: 0;
+  padding: 0;
+}
+
+/* styling for the main page*/
+#main_image {
+  width: 50vw;
+  min-height: 100vh;
+  position: fixed;
+  float: left;
+}
+#brent_pic {
+  width: 100%;
+  height: auto;
+}
+#main_content {
+  background-image: radial-gradient(#cce0ff, #99b3ff);
+  width: 50vw;
+  height: 100vh;
+  position: relative;
+  left: 50vw;
+}
+#kids {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+  padding: 0;
+  border-radius: 50%;
+}
+#kids_pic {
+  padding-top: 5%;
+}
+/*This is the styling for the portfolio page*/
+#portfolio_page {
+  width: 50vw;
+  height: 100vh;
+  background-image: radial-gradient(#cce0ff, #99b3ff);
+  position: relative;
+  left: 50vw;
+  text-align: center;
+}
+#eightball_screenshot,
+#calc_screenshot {
+  width: 45%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5%;
+}
+#eightball_screenshot:hover,
+#calc_screenshot:hover {
+  transform: scale(1.1);
+}
+#github_icon,
+#twitter_icon,
+#linkedin_icon,
+#gmail_icon {
+  width: 10%;
+  height: auto;
+  padding: 5px;
+}
+#github_icon:hover,
+#twitter_icon:hover,
+#linkedin_icon:hover,
+#gmail_icon:hover {
+  transform: scale(1.1);
+}
+/*This is the styling of the div for the form*/
+#contact_page {
+  width: 50vw;
+  height: 100vh;
+  background-image: radial-gradient(#cce0ff, #99b3ff);
+  position: relative;
+  left: 50vw;
+}
+h2 {
+  text-align: center;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-top: 0;
+}
+#form_container {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down_arrows {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+#page_one_arrows {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#sample {
+  padding-top: 5%;
+  font-size: 35px;
+}
