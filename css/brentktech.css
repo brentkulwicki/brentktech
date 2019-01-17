@@ -101,12 +101,15 @@ h2 {
   margin-right: auto;
 }
 .down_arrows {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid black;
   border-radius: 50%;
   width: 35px;
   height: 35px;
 }
-#page_one_arrows {
+#down_arrows_pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
