@@ -5,6 +5,8 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Brent Kulwicki Web Development</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
       <link rel="stylesheet" type="text/css" media="screen" href="css/brentktech.css" />
     </head>
     <body>
@@ -16,7 +18,8 @@
           <!-- The next three sections will each be its own separate pages - first page is the bio page -->
           <div id='main_content'>
             <div id='kids_pic'><img src='img/brent_kids.jpg' id='kids'></div>
-            <h2>Brent Kulwicki is a business professional with over 10 years of experience in sales and financial services turned web developer. Despite changing industries, his focus is the same as it always has been, taking care of his clients to help them grow their brand or business.</h2>
+            <h1 id='greeting'>Meet Brent Kulwicki</h1>
+            <p>Brent is a business professional with over 10 years of experience in sales and financial services turned web developer. Despite changing industries, his focus is the same as it always has been, taking care of his clients to help them grow their brand or business.</p>
             <p>Primarily focusing on HTML, CSS and JavaScript, Brent has spent the past year building high-quality websites and applications.</p>
             <p>When his kids are awake, you will find Brent playing dad to his almost 1-year-old and 2-year-old sons. After waking hours, he primarily uses his time for learning new web development technologies and tricks, but still manages to find some time here or there for something else he loves, fantasy football or baseball.</p>
             <!-- <div class='down_arrows' id='to_page_two'><img id='down_arrows_pic' src='img/double_down_arrows.png'/></div> -->
@@ -38,7 +41,7 @@
         </div>
         <!-- This is the contact form - using netlify (eventually) to submit the form data to email -->
         <div id='skills_page'>
-          <h2>Skills</h2>
+          <h2 id='skills'>Skills</h2>
           <img id='html5_logo' src='img/HTML5_Logo.svg' /><br>
           <div class='skill_container'>
             <div id='html5'></div>
@@ -63,12 +66,13 @@
         <div id='contact_page'>
           <h2>Contact Brent</h2>
           <div id='form_container'>
-            <form>
+            <form name='contact' method='POST' data-netlify='true'>
               <label for='full_name'>Full Name</label><br>
               <input type='text' id='full_name' name='full_name'><br>
               <label for='email'>Email</label><br>
               <input type='email' id='email' name='email'><br>
-              <label>What are you contacting about? (Check all that apply)</label><br>
+              <br>
+              <label>What are you contacting about?</label><br>
               <input type='checkbox' id='employment' name='contact'>
               <label for='employment'>Full-time Employment</label>
               <input type='checkbox' id='freelance' name ='contact'>
@@ -77,6 +81,7 @@
               <label for='collaborate'>Collaborate</label>
               <input type='checkbox' id='other' name='contact'>
               <label for='other'>Other</label><br>
+              <br>
               <label for='more_detail'>Provide more detailed here:</label><br>
               <textarea id='more_detail' name='contact' rows='5' cols='33'></textarea><br>
               <input type='submit' value='Send to Brent'>

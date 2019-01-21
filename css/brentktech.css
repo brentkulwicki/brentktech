@@ -27,26 +27,46 @@ a {
   position: relative;
   left: 50vw;
 }
+h1 {
+  text-align: center;
+  font-size: 2.25em;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Bree Serif', serif;
+}
 #kids {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20vw;
-  height: 20vw;
+  width: 23vw;
+  height: 23vw;
   padding: 0;
   border-radius: 50%;
 }
 #kids_pic {
   padding-top: 5%;
 }
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 18px;
+}
+#greeting {
+  margin-bottom: 10px;
+}
 /*This is the styling for the portfolio page*/
 #portfolio_page {
   width: 50vw;
-  height: 100vh;
+  height: auto;
   background-image: url('../img/pink_rice.png');
   position: relative;
   left: 50vw;
   text-align: center;
+  padding-bottom: 40px;
 }
 #eightball_screenshot,
 #calc_screenshot {
@@ -123,12 +143,15 @@ a {
   padding-right: 0;
   padding-left: 0;
   height: 5vh;
-  margin-left: 5vh;
+  margin-left: 5%;
   margin-right: 5%;
   width: 90%;
   box-sizing: border-box;
   background-color: white;
   border: 2px solid black;
+}
+#skills {
+  padding-top: 10%;
 }
 
 /*This is the styling of the div for the form*/
@@ -150,23 +173,25 @@ h2 {
   padding-right: 12px;
   padding-left: 12px;
   margin-top: 0;
+  font-size: 30px;
 }
 #form_container {
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 60%;
+  min-width: 450px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 #sample {
   padding-top: 5%;
-  font-size: 35px;
-}
-p {
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: center;
 }
 form {
   text-align: center;
+  font-family: 'Amaranth', sans-serif;
+}
+#full_name {
+  margin-bottom: 5px;
 }
