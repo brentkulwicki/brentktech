@@ -21,7 +21,7 @@ a {
   height: auto;
 }
 #main_content {
-  background-image: radial-gradient(#cce0ff, #99b3ff);
+  background-image: url('../img/pink_rice.png');
   width: 50vw;
   height: 100vh;
   position: relative;
@@ -31,8 +31,8 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
-  height: 250px;
+  width: 20vw;
+  height: 20vw;
   padding: 0;
   border-radius: 50%;
 }
@@ -43,7 +43,7 @@ a {
 #portfolio_page {
   width: 50vw;
   height: 100vh;
-  background-image: radial-gradient(#cce0ff, #99b3ff);
+  background-image: url('../img/pink_rice.png');
   position: relative;
   left: 50vw;
   text-align: center;
@@ -75,13 +75,71 @@ a {
 #gmail_icon:hover {
   transform: scale(1.1);
 }
+/* This is the styling for the skills page */
+#skills_page {
+  width: 50vw;
+  position: relative;
+  left: 50vw;
+  background-image: url('../img/pink_rice.png');
+}
+#html5_logo,
+#css3_logo,
+#js_logo,
+#node_logo,
+#react_logo {
+  height: 100px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+#html5,
+#css3,
+#js,
+#nodejs,
+#react {
+  background-color: black;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#nodejs {
+  width: 30%;
+}
+#react {
+  width: 40%;
+}
+#js {
+  width: 73%;
+}
+#css3 {
+  width: 73%;
+}
+#html5 {
+  width: 80%;
+}
+.skill_container {
+  padding-right: 0;
+  padding-left: 0;
+  height: 5vh;
+  margin-left: 5vh;
+  margin-right: 5%;
+  width: 90%;
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid black;
+}
+
 /*This is the styling of the div for the form*/
 #contact_page {
   width: 50vw;
-  height: 100vh;
-  background-image: radial-gradient(#cce0ff, #99b3ff);
+  height: auto;
+  background-image: url('../img/pink_rice.png');
   position: relative;
   left: 50vw;
+  padding-bottom: 10%;
+  padding-top: 10%;
 }
 h2 {
   text-align: center;
@@ -96,25 +154,19 @@ h2 {
 #form_container {
   border: 1px solid black;
   border-radius: 5px;
-  width: 50vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-.down_arrows {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid black;
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-}
-#down_arrows_pic {
-  display: block;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 #sample {
   padding-top: 5%;
   font-size: 35px;
+}
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+form {
+  text-align: center;
 }
