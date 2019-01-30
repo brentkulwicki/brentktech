@@ -5,24 +5,33 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Brent Kulwicki Web Development</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel='stylesheet' type='text/css' href='../../Misc/normalize_css/normalize_dot_css/normalize.css'>
       <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
       <link rel="stylesheet" type="text/css" media="screen" href="css/brentktech.css" />
     </head>
     <body>
         <div id='landing_page'>
+          <div id='page_title'>
+            <h1>BrentK.tech</h1>
+            <div id='nav_bar'>
+              <a href='#main_content'><div id='home_nav'>Home</div></a>
+              <a href='#portfolio_page'><div id='portfolio_nav'>Portfolio</div></a>
+              <a href='#skills_page'><div id='skills_nav'>Skills</div></a>
+              <a href='#contact_page'><div id='contact_nav'>Contact</div></a>
+            </div>
+          </div>
           <!-- This section is just an image that takes up the left half of the screen -->
           <div id='main_image'>
-            <img src='img/brent_pic.jpg' id='brent_pic' />
+             <img id='brent_pic' src='img/brent_pic.jpg' />
           </div>
           <!-- The next three sections will each be its own separate pages - first page is the bio page -->
           <div id='main_content'>
-            <div id='kids_pic'><img src='img/brent_kids.jpg' id='kids'></div>
+            <div id='kids_pic'><img src='img/brent_family.jpg' id='kids'></div>
             <h1 id='greeting'>Meet Brent Kulwicki</h1>
             <p>Brent is a business professional with over 10 years of experience in sales and financial services turned web developer. Despite changing industries, his focus is the same as it always has been, taking care of his clients to help them grow their brand or business.</p>
             <p>Primarily focusing on HTML, CSS and JavaScript, Brent has spent the past year building high-quality websites and applications.</p>
             <p>When his kids are awake, you will find Brent playing dad to his almost 1-year-old and 2-year-old sons. After waking hours, he primarily uses his time for learning new web development technologies and tricks, but still manages to find some time here or there for something else he loves, fantasy football or baseball.</p>
-            <!-- <div class='down_arrows' id='to_page_two'><img id='down_arrows_pic' src='img/double_down_arrows.png'/></div> -->
           </div>
         </div>
         <!-- This section will house the main projects from my portfolio - currently only has 2 projects - 2 other commented out -->
@@ -41,7 +50,7 @@
         </div>
         <!-- This is the contact form - using netlify (eventually) to submit the form data to email -->
         <div id='skills_page'>
-          <h2 id='skills'>Skills</h2>
+          <h2 id='skills'>Skill Levels</h2>
           <img id='html5_logo' src='img/HTML5_Logo.svg' /><br>
           <div class='skill_container'>
             <div id='html5'></div>
@@ -84,7 +93,7 @@
               <br>
               <label for='more_detail'>Provide more detailed here:</label><br>
               <textarea id='more_detail' name='contact' rows='5' cols='33'></textarea><br>
-              <input type='submit' value='Send to Brent'>
+              <input id='submit_button' type='submit' value='Send to Brent'>
             </form>
           </div>
         </div>
