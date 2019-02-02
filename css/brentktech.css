@@ -13,7 +13,6 @@ color: lightgray;
 body {
 margin: 0;
 padding: 0;
-text-align: center;
 background-image: url("../img/pink_rice.png")
 }
 #page_title {
@@ -38,6 +37,9 @@ border: 1px solid black;
 display: inline-block;
 padding-left: 15px;
 padding-right: 15px;
+}
+#left_column {
+  display: none;
 }
 #main_image {
   display: none;
@@ -212,17 +214,34 @@ form {
 }
 
 @media screen and (min-width: 1000px) {
+#left_column,
+#right_column {
+  width: 50vw;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+#header {
+  display: none;
+}
+#left_column {
+  position: fixed;
+  display: unset;
+  clear: none;
+  z-index: 1;
+}
+#right_column {
+  float: right;
+}
 #main_image {
   width: 50vw;
   min-height: 100vh;
-  position: fixed;
   float: left;
-  clear: both;
+  clear: none;
   display: unset;
-  z-index: 1;
 }
 #brent_pic {
-  width: 100%;
+  width: 50vw;
   height: auto;
 }
 #main_content,

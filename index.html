@@ -11,8 +11,13 @@
       <link rel="stylesheet" type="text/css" media="screen" href="css/brentktech.css" />
     </head>
     <body>
-        <div id='landing_page'>
-          <div id='page_title'>
+      <!-- This section is just an image that takes up the left half of the screen -->
+      <div id='left_column'>
+        <img id='brent_pic' src='img/brent_pic.jpg' />
+      </div>
+      <!-- This is the main nav bar -->
+      <div id='right_column'>
+        <div id='page_title'>
             <h1>BrentK.tech</h1>
             <div id='nav_bar'>
               <a href='#main_content'><div id='home_nav'>Home</div></a>
@@ -21,18 +26,13 @@
               <a href='#contact_page'><div id='contact_nav'>Contact</div></a>
             </div>
           </div>
-          <!-- This section is just an image that takes up the left half of the screen -->
-          <div id='main_image'>
-             <img id='brent_pic' src='img/brent_pic.jpg' />
-          </div>
-          <!-- The next three sections will each be its own separate pages - first page is the bio page -->
-          <div id='main_content'>
-            <div id='kids_pic'><img src='img/brent_family.jpg' id='kids'></div>
-            <h1 id='greeting'>Meet Brent Kulwicki</h1>
-            <p>Brent is a business professional with over 10 years of experience in sales and financial services turned web developer. Despite changing industries, his focus is the same as it always has been, taking care of his clients to help them grow their brand or business.</p>
-            <p>Primarily focusing on HTML, CSS and JavaScript, Brent has spent the past year building high-quality websites and applications.</p>
-            <p>When his kids are awake, you will find Brent playing dad to his almost 1-year-old and 2-year-old sons. After waking hours, he primarily uses his time for learning new web development technologies and tricks, but still manages to find some time here or there for something else he loves, fantasy football or baseball.</p>
-          </div>
+        <!-- The next three sections will each be its own separate pages - first page is the bio page -->
+        <div id='main_content'>
+          <div id='kids_pic'><img src='img/brent_family.jpg' id='kids'></div>
+          <h1 id='greeting'>Meet Brent Kulwicki</h1>
+          <p>Brent is a business professional with over 10 years of experience in sales and financial services turned web developer. Despite changing industries, his focus is the same as it always has been, taking care of his clients to help them grow their brand or business.</p>
+          <p>Primarily focusing on HTML, CSS and JavaScript, Brent has spent the past year building high-quality websites and applications.</p>
+          <p>When his kids are awake, you will find Brent playing dad to his almost 1-year-old and 2-year-old sons. After waking hours, he primarily uses his time for learning new web development technologies and tricks, but still manages to find some time here or there for something else he loves, fantasy football or baseball.</p>
         </div>
         <!-- This section will house the main projects from my portfolio - currently only has 2 projects - 2 other commented out -->
         <div id='portfolio_page'>
@@ -97,6 +97,7 @@
             </form>
           </div>
         </div>
+      </div>
       <script src="js/brentktech.js"></script>
     </body>
   </html>
