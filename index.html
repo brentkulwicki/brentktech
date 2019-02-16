@@ -16,7 +16,7 @@
       </div> -->
       <!-- This is the main nav bar -->
       <header id='page_title'>
-        <h1>Brent Kulwicki</h1>
+        <h1 id='top-page-heading'>Brent Kulwicki</h1>
         <div id='nav_bar'>
           <a href='#main_content'><div id='home_nav' class='nav-button'>Home</div></a>
           <a href='#portfolio_page'><div id='portfolio_nav' class='nav-button'>Portfolio</div></a>
@@ -27,52 +27,54 @@
       <div id='right_column'>
         <!-- The next three sections will each be its own separate pages - first page is the bio page -->
         <div id='main_content'>
-          <div id='kids_pic'><img src='img/brent_family_wide.jpg' id='kids'></div>
-          <h1 id='greeting'>Meet Brent</h1>
+          <div id='kids_pic'><img src='img/brent_family_wide.jpg' id='kids' alt='Brent Kulwicki with his wife and two children'></div>
+          <div class='heading-container'><h1 id='greeting' class='underline-header'>Meet Brent</h1></div>
           <p>Brent is a business professional with over 10 years of experience in sales and financial services turned web developer. Despite changing industries, his focus is the same as it always has been, taking care of his clients to help them grow their brand or business.</p>
           <p>Primarily focusing on HTML, CSS and JavaScript, Brent has spent the past year building high-quality websites and applications.</p>
           <p>When his kids are awake, you will find Brent playing dad to his almost 1-year-old and 2-year-old sons. After waking hours, he primarily uses his time for learning new web development technologies and tricks, but still manages to find some time here or there for something else he loves, fantasy football or baseball.</p>
         </div>
         <!-- This section will house the main projects from my portfolio - currently only has 2 projects - 2 other commented out -->
-        <div id='portfolio_page'>
-          <h2 id='sample'>Sample Work</h2>
-          <div id='portfolio_tiles'>
-            <a href='eightBall.html' target='_blank'><img id='eightball_screenshot' src='img/8ball_screenshot.png'></a>
-            <a href='calc.html' target='_blank'><img id='calc_screenshot' src='img/calc_screenshot.png'></a>
-            <!-- <a href='project_three'><img src='https://placeimg.com/400/300/tech'></a>
-            <a href='project_four'><img src='https://placeimg.com/400/300/tech'></a> -->
+        <div id='skills-portfolio-container'>
+          <div id='portfolio_page'>
+            <div class='heading-container'><h2 id='sample' class='underline-header'>Sample Work</h2></div>
+            <div id='portfolio_tiles'>
+              <a href='eightBall.html' target='_blank'><img id='eightball_screenshot' src='img/8ball_screenshot.png'></a>
+              <a href='calc.html' target='_blank'><img id='calc_screenshot' src='img/calc_screenshot.png'></a>
+              <!-- <a href='project_three'><img src='https://placeimg.com/400/300/tech'></a>
+              <a href='project_four'><img src='https://placeimg.com/400/300/tech'></a> -->
+            </div>
+            <a href='https://github.com/brentkulwicki' target='_blank'><img id='github_icon' class='social-media' src='img/iconmonstr-github-3-240.png' /></a>
+            <a href='https://twitter.com/BrentKulwicki' target='_blank'><img id='twitter_icon' class='social-media' src='img/iconmonstr-twitter-3-240.png' /></a>
+            <a href='https://www.linkedin.com/in/brent-kulwicki-96822874/' target='_blank'><img id='linkedin_icon' class='social-media' src='img/iconmonstr-linkedin-3-240.png' /></a>
+            <a href='mailto:brentkwebdev@gmail.com'><img id='gmail_icon' class='social-media' src='img/iconmonstr-gmail-3-240.png' /></a>
           </div>
-          <a href='https://github.com/brentkulwicki' target='_blank'><img id='github_icon' src='img/iconmonstr-github-3-240.png' /></a>
-          <a href='https://twitter.com/BrentKulwicki' target='_blank'><img id='twitter_icon' src='img/iconmonstr-twitter-3-240.png' /></a>
-          <a href='https://www.linkedin.com/in/brent-kulwicki-96822874/' target='_blank'><img id='linkedin_icon' src='img/iconmonstr-linkedin-3-240.png' /></a>
-          <a href='mailto:brentkwebdev@gmail.com'><img id='gmail_icon' src='img/iconmonstr-gmail-3-240.png' /></a>
-        </div>
-        <!-- This is the contact form - using netlify (eventually) to submit the form data to email -->
-        <div id='skills_page'>
-          <h2 id='skills'>Skill Levels</h2>
-          <img id='html5_logo' src='img/HTML5_Logo.svg' /><br>
-          <div class='skill_container'>
-            <div id='html5'></div>
-          </div>
-          <img id='css3_logo' src='img/css3.svg' /><br>
-          <div class='skill_container'>
-            <div id='css3'></div>
-          </div>
-          <img id='js_logo' src='img/javascript.svg' /><br>
-          <div class='skill_container'>
-            <div id='js'></div>
-          </div>
-          <img id='react_logo' src='img/react.svg' /><br>
-          <div class='skill_container'>
-            <div id='react'></div>
-          </div>
-          <img id='node_logo' src='img/nodejs-icon.svg' /><br>
-          <div class='skill_container'>
-            <div id='nodejs'></div>
+          <!-- This is the contact form - using netlify (eventually) to submit the form data to email -->
+          <div id='skills_page'>
+            <div class='heading-container'><h2 id='skills' class='underline-header'>Skill Levels</h2></div>
+            <img id='html5_logo' src='img/HTML5_Logo.svg' /><br>
+            <div class='skill_container'>
+              <div id='html5'></div>
+            </div>
+            <img id='css3_logo' src='img/css3.svg' /><br>
+            <div class='skill_container'>
+              <div id='css3'></div>
+            </div>
+            <img id='js_logo' src='img/javascript.svg' /><br>
+            <div class='skill_container'>
+              <div id='js'></div>
+            </div>
+            <img id='react_logo' src='img/react.svg' /><br>
+            <div class='skill_container'>
+              <div id='react'></div>
+            </div>
+            <img id='node_logo' src='img/nodejs-icon.svg' /><br>
+            <div class='skill_container'>
+              <div id='nodejs'></div>
+            </div>
           </div>
         </div>
         <div id='contact_page'>
-          <h2>Contact Brent</h2>
+          <div class='heading-container'><h2>Contact Brent</h2></div>
           <div id='form_container'>
             <form name='contact' method='POST' data-netlify='true'>
               <label for='full_name'>Full Name</label><br>
