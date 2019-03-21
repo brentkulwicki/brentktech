@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+p {
+    display: inline-block;
+}
+/* Styling for the top box on the page containing the Player data and stats information */
+
+#player-data {
+    background-color: #272727;
+    color: #ffe400;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.flex {
+    display: flex;
+}
+.flex-child {
+    width: 50%;
+    border: none;
+}
+/* This is the styling for the draft button when it is disabled and enabled */
+.disabled {
+    height: 25px;
+    min-width: 12%;
+    background-color: #ff652f;
+    color: #272727;
+    border-color: #272727;
+    font-weight: bold;
+}
+.disabled:focus {
+    outline: #747474 auto 5px;
+}
+.active {
+    height: 25px;
+    min-width: 12%;
+    background-color: #14A76C;
+    color: #272727;
+    border-color: #272727;
+    font-weight: bold;
+}
+.active:focus {
+    outline: #747474 auto 5px;
+}
+/* this class is applied to the hitter and pitchers divs to hide them on page load - also used to hide keeper section when the draft starts */
+.hidden {
+    display: none;
+}
+/* end styling for the top section */
+/* Styling for the second section which is the player search section  */
+#player-search {
+    height: 25vh;
+    text-align: center;
+    background-color: #272727;
+    color: #ffe400;
+    overflow: scroll;
+    padding-top: 10px;
+    border-top: 2px solid #747474;
+}
+#enterKeepers {
+    border-bottom: 1px solid #747474;
+    padding-bottom: 3px;
+}
+li {
+    list-style: none;
+    border-top: 1px solid #747474;
+    border-bottom: 1px solid #747474;
+    cursor: pointer;
+}
+select {
+    color: #272727;
+    background-color: #747474;
+    border-color: #272727;
+    font-weight: bold;
+}
+select:focus {
+    outline: #747474 auto 5px;
+}
+#playerSearch {
+    background-color: #14a76c;
+    color: #272727;
+    border-color: #272727;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#playerSearch:focus {
+    outline: #747474 auto 5px;
+}
+input {
+    font-weight: bold;
+}
+/* end styling for the player search section */
+/* these are the stylings for the draft board (AKA tables) */
+
+/* this class is being used to hide all columns other than the selcted column in the mobile layout */
+.hiddenColumn {
+    display: none;
+}
+th,
+td {
+    border: 1px solid #272727;
+    display: block;
+    height: 22px;
+    overflow: hidden;
+}
+#parent-tr > td {
+    height: unset;
+}
+#parent-tr {
+    height: unset;
+}
+td {
+    text-align: center;
+}
+td.column > table {
+    background-color: #272727;
+}
+tbody.team > tr {
+    height: 22px;
+    overflow: hidden;
+}
+tbody > tr {
+    background-color: #747474;
+}
+table {
+    width: 100%;
+    text-align: center;
+    background-color: #747474;
+    color: #272727;
+}
+/* end draft board styling */
+/* Desktop stylings */
+@media only screen and (min-width: 1000px) {
+    .hiddenColumn,
+    .column {
+        display: inline-block;
+    }
+    .column {
+        width: 8.8%;
+    }
+    #hidden-desktop {
+        display: none;
+    }
+}

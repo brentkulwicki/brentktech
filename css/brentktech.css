@@ -102,8 +102,7 @@ p {
   padding-bottom: 10px;
   padding-top: 15px;
 }
-#eightball_screenshot,
-#calc_screenshot {
+.portfolio-tiles {
   width: 90%;
   height: auto;
   display: block;
@@ -111,23 +110,15 @@ p {
   margin-left: auto;
   padding: 5%;
 }
-#eightball_screenshot:hover,
-#calc_screenshot:hover {
+.portfolio-tiles:hover {
   transform: scale(1.1);
 }
-#github_icon,
-#twitter_icon,
-#linkedin_icon,
-#gmail_icon {
+
+.social-media:hover{
+  transform: scale(1.1);
   width: 20%;
   height: auto;
   padding: 5px;
-}
-#github_icon:hover,
-#twitter_icon:hover,
-#linkedin_icon:hover,
-#gmail_icon:hover {
-  transform: scale(1.1);
 }
 /* Styling for the skills page */
 #skills_page {
@@ -250,8 +241,7 @@ form {
     height: auto;
     padding: 5px;
   }
-  #eightball_screenshot,
-  #calc_screenshot {
+  .portfolio-tiles {
     width: 80%;
   }
 } 
@@ -269,16 +259,16 @@ form {
     margin-right: auto;
   }
   #kids {
-    max-height: 60vh;
+    max-height: 65vh;
     width: auto;
+    margin-top: 15px;
   }
   #kids_pic {
-    max-height: 60vh;
+    max-height: 65vh;
     width: auto;
     box-shadow: none;
   }
-  #eightball_screenshot,
-  #calc_screenshot {
+  .portfolio-tiles {
     width: 60%;
   }
   p {
@@ -320,8 +310,7 @@ form {
     height: auto;
     padding: 8px;
   }
-  #eightball_screenshot,
-  #calc_screenshot {
+  .portfolio-tiles {
     width: 90%;
   }
   #skills_page {
