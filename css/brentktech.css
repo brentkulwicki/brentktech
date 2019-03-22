@@ -113,12 +113,23 @@ p {
 .portfolio-tiles:hover {
   transform: scale(1.1);
 }
-
-.social-media:hover{
-  transform: scale(1.1);
+.project-links {
+  color: #6e5494;
+}
+.project-links:hover {
+  color: #493666;
+}
+#social-links {
+  width: 100vw;
+  text-align: center;
+}
+.social-media {
   width: 20%;
   height: auto;
   padding: 5px;
+}
+.social-media:hover{
+  transform: scale(1.1);
 }
 /* Styling for the skills page */
 #skills_page {
@@ -213,6 +224,9 @@ form {
 #full_name {
   margin-bottom: 5px;
 }
+.social-a {
+  margin-top: 15px;
+}
 .underline-header {
   display: inline;
   border-bottom: 2px solid black;
@@ -279,7 +293,7 @@ form {
   #twitter_icon,
   #linkedin_icon,
   #gmail_icon {
-    width: 7%;
+    width: 10%;
     height: auto;
     padding: 8px;
   }
@@ -297,21 +311,22 @@ form {
   #skills-portfolio-container {
     overflow: auto;
   }
-  #portfolio_page,
+  #portfolio_page {
+    width: 100vw;
+  }
   #skills_page {
     width: 50vw;
-    float: left;
   }
   #github_icon,
   #twitter_icon,
   #linkedin_icon,
   #gmail_icon {
-    width: 15%;
+    width: 8%;
     height: auto;
     padding: 8px;
   }
   .portfolio-tiles {
-    width: 90%;
+    width: 75%;
   }
   #skills_page {
     padding-top: 15px;
